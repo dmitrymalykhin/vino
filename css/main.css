@@ -653,6 +653,10 @@ header {
 	font-weight: bold;
 	font-size: 18px;
 	color: #000000;
+	min-height: 60px;
+}
+.tab label span {
+	padding-right: 25px;
 }
 .blue label {
 	background: transparent;
