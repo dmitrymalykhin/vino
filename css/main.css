@@ -656,7 +656,7 @@ header {
 	min-height: 60px;
 }
 .tab label span {
-	padding-right: 25px;
+	padding-right: 50px;
 }
 .blue label {
 	background: transparent;
@@ -978,6 +978,12 @@ footer {
 .ripple_effects::after {
 
 }
+.bg-image-1 {
+	display: none;
+}
+.bg-image-2 {
+	display: none;
+}
 .ripple_effects {
 	position: absolute;
 	border-radius: 50%;
@@ -985,6 +991,9 @@ footer {
 }
 .ripple_effects  {
 	-webkit-animation: expand 2s linear infinite;
+}
+.call__image {
+	display: none;
 }
 @-webkit-keyframes expand {
 	0% {
@@ -1142,5 +1151,60 @@ footer {
 	}
 	.footer-copy-item {
 		margin-right: 0;
+	}
+	.stat-card__text {
+		font-size: 14px;
+	}
+	.stat-card__number span {
+		font-size: 50px;
+	}
+	.stat-card__number::before {
+		width: 50px;
+		height: 50px;
+	}
+	.stat-card__number {
+		margin-right: 0px;
+	}
+	.bg-image-1 {
+		display: block;
+		position: absolute;
+		right: -130px;
+		top: 50px;
+	}
+	.bg-image-2 {
+		display: block;
+		position: absolute;
+		right: -350px;
+		top: 170px;
+	}
+	.bg-image-1 img {
+		width: 300px;
+		height: 300px;
+		object-fit: scale-down;
+	}
+	.bg-image-2 img {
+		width: 100px;
+		height: 100px;
+		width: 550px;
+		height: 750px;
+		object-fit: scale-down;
+	}
+	.stat {
+		overflow: hidden;
+		position: relative;
+	}
+	.call-back {
+		overflow: hidden;
+		position: relative;
+	}
+	.call__image {
+		position: absolute;
+		display: block;
+		right: -120px;
+		top: 140px;
+	}
+	.call__image img {
+		object-fit: scale-down;
+		width: 400px;
 	}
 }
